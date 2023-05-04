@@ -9,7 +9,7 @@ public class Programa{
 		
 		
 		if(meuNovoLivro.estaEmprestado) {
-			System.out.println("O livro es´ta emprestado");
+			System.out.println("O livro está emprestado");
 		}
 	}
 }
