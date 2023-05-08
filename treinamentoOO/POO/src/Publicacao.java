@@ -9,6 +9,9 @@ public class Publicacao {
 		String resultado = this.titulo +" ( "+this.anoPub+ " ) ";
 		return resultado;
 	}
+	public String toString(){
+		return gerarReferencia();
+	}
 	public void addObs(String novaObs){
 		observacoes = observacoes + "\n"+ novaObs;
 	}
