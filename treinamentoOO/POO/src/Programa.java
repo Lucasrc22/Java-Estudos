@@ -1,9 +1,9 @@
-
+import java.util.*;
 public class Programa{
 	public static void main(String[] args){
-		Livro pub = new Livro("Dom Casmurro", 1899);
+		Livro pub = new Livro("Dragon Ball", 1994);
 		pub.addNomeAutor("Machado de Assis");
-		System.out.println(pub.toString());
+		System.out.println(pub.getResponsavel());
 		
 	}	
 }

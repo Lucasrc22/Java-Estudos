@@ -21,4 +21,12 @@ public class Livro extends Publicacao{
 		String referenciaPub = super.gerarReferencia();
 		return linhaAutores + ",  "+ referenciaPub;
 	}
+
+	public String getResponsavel(){
+		String responsavel = "Desconhecido";
+		if(autores != null && autores.size() > 0){
+			responsavel = autores.get(0);
+		} 
+		return responsavel;
+	}
 }

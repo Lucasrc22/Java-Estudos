@@ -1,4 +1,4 @@
-public class Publicacao {
+public abstract class Publicacao {
     protected String titulo;
 	protected int anoPub;
 	protected boolean estaEmprestado;
