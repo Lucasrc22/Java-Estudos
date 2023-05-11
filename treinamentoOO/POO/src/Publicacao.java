@@ -1,4 +1,4 @@
-public abstract class Publicacao {
+public abstract class Publicacao implements Referenciavel {
     protected String titulo;
 	protected int anoPub;
 	protected boolean estaEmprestado;
