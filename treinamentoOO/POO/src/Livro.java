@@ -19,7 +19,7 @@ public class Livro extends Publicacao{
 	public String gerarReferencia(){
 		String linhaAutores = String.join(";", autores);
 		String referenciaPub = super.gerarReferencia();
-		return linhaAutores + ",  "+ referenciaPub;
+		return linhaAutores + " "+ referenciaPub;
 	}
 
 	public String getResponsavel(){
